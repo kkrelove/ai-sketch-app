@@ -1,4 +1,6 @@
-﻿# This file tells Netlify where to find your serverless functions.
-# Place this file in the root of your project folder.
+[build]
+  command = "# no build command"
+  publish = "."
+
 [functions]
   directory = "netlify/functions"
